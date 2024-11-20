@@ -1,15 +1,15 @@
-   借助Pymoo，做了一个ASPEN PLUS和Pymoo联用的案例，这是我第一次使用Github，如果有线索，请告知我删除。所有相关代码在pymoo\\Aspen_Pymoo中。
+   借助Pymoo，做了一个ASPEN PLUS和Pymoo联用的案例，这是我第一次使用Github，如果有侵权，请告知我删除。所有相关代码在pymoo\\Aspen_Pymoo中。
 
-   本人不是专业设计师，不是专门研究ASPEN PLUS的学者，也不是天生算法领域的学者，只是曾在本科毕业设计中使用过相关随机算法与ASPEN PLUS联动（但比较失败）。 毕业几年后，某某有一天突然有了感觉，于是花了一些时间完成了这项工作
+   本人不是专业程序员，不是专门研究ASPEN PLUS的学者，也不是启发式算法领域的学者，只是曾在本科毕业设计中使用过相关随机算法与ASPEN PLUS联动（但比较失败）。 毕业几年后，突然有了灵感，于是花了一些时间完成了这项工作
 
    在做这项工作的过程中我发现ASPEN随机优化领域的相关资料仍然比较少，故此项目分享出来。
 
 
-   我从Pymoo中添加了一个Aspen_Pymoo文件夹，其中包含我制作的一个ASPEN PLUS以及ASPEN PLUS和Pymoo与Pymoo结合的案例。这是我第一次使用Github。If infringement is involved，请通知我删除。所有相关代码都在 pymoo\\Aspen_Pymoo 中。
+   With the help of Pymoo, I made a case of the combination of ASPEN PLUS and Pymoo. This is my first time using Github. In case of infringement, please let me know to delete it. All relevant code is in pymoo\\Aspen_Pymoo.
 
-   我不是专业设计师，不是专门研究ASPEN PLUS的学者，也不是进化算法领域的学者，但我曾经在本科毕业设计中结合ASPEN PLUS使用过相关随机算法（但失败了）。有一天突然有这样的感觉，于是花了一些时间做一些工作
+   I am not a professional programmer, not a scholar specializing in ASPEN PLUS, nor a scholar in the field of born algorithms, but I once used related stochastic algorithms to linkage with ASPEN PLUS in my undergraduate graduation design (but failed). A few years after graduation, So-and-so suddenly had a feeling one day, so it took some time to finish the work
 
-   在做这个工作的过程中，我发现ASPEN随机优化领域的相关资料还很少，所以分享一下这个项目。
+   In the process of doing this work, I found that the relevant information in the field of ASPEN random optimization is still relatively small, so this project is shared.
 
 .. | 蟒蛇|图片:: https://img.shields.io/badge/python-3.10-blue.svg
    ：替代：Python 3.10
