@@ -1,62 +1,66 @@
-   借助Pymoo，做了一个ASPEN PLUS和Pymoo联用的案例，这是我第一次使用Github，如果有侵权，请告知我删除。所有相关代码在pymoo\\Aspen_Pymoo中。
+   借助Pymoo，做了一个ASPEN PLUS和Pymoo联用的案例，我在pymoo\\Aspen_Pymoo添加了所需要的代码，在其他地方没有改动。这是我第一次使用Github，如果有侵权，请告知我删除。
 
-   本人不是专业程序员，不是专门研究ASPEN PLUS的学者，也不是启发式算法领域的学者，只是曾在本科毕业设计中使用过相关随机算法与ASPEN PLUS联动（但比较失败）。 毕业几年后，突然有了灵感，于是花了一些时间完成了这项工作
+   不是专业程序员，不是专门研究ASPEN PLUS的学者，也不是启发式算法领域的学者，只是曾在本科毕业设计中使用过相关随机算法与ASPEN PLUS联动（但比较失败）。 毕业几年后，突然有了灵感，于是花了一些时间完成了这项工作
 
-   在做这项工作的过程中我发现ASPEN随机优化领域的相关资料仍然比较少，故此项目分享出来。
+   在做这项工作的过程中发现ASPEN随机优化领域的相关资料仍然比较少，故此项目分享出来。更多的信息在Aspen_Pymoo\\Readme.MD。
 
 
-   With the help of Pymoo, I made a case of the combination of ASPEN PLUS and Pymoo. This is my first time using Github. In case of infringement, please let me know to delete it. All relevant code is in pymoo\\Aspen_Pymoo.
+
+
+   With the help of Pymoo, I made a case of the combination of ASPEN PLUS and Pymoo.I've added the required code in pymoo\\Aspen_Pymoo and left it unchanged elsewhere. This is my first time using Github. In case of infringement, please let me know to delete it. 
 
    I am not a professional programmer, not a scholar specializing in ASPEN PLUS, nor a scholar in the field of born algorithms, but I once used related stochastic algorithms to linkage with ASPEN PLUS in my undergraduate graduation design (but failed). A few years after graduation, So-and-so suddenly had a feeling one day, so it took some time to finish the work
 
-   In the process of doing this work, I found that the relevant information in the field of ASPEN random optimization is still relatively small, so this project is shared.
+   In the process of doing this work, I found that the relevant information in the field of ASPEN random optimization is still relatively small, so this project is shared.More information is available at  pymoo\\Aspen_Pymoo\\Readme.MD
 
-.. | 蟒蛇|图片:: https://img.shields.io/badge/python-3.10-blue.svg
-   ：替代：Python 3.10
+   Below the text is an introduction referenced from PYMOO
 
-.. |许可证|图片:: https://img.shields.io/badge/license-apache-orange.svg
-   :alt: 许可阿帕奇
-   ：目标：https://www.apache.org/licenses/LICENSE-2.0
+.. |python| image:: https://img.shields.io/badge/python-3.10-blue.svg
+   :alt: python 3.10
 
-
-..|标志|图片:: https://github.com/anyoptimization/pymoo-data/blob/main/logo.png?raw=true
-  ：目标：https://pymoo.org
-  ： 替代： pymoo
+.. |license| image:: https://img.shields.io/badge/license-apache-orange.svg
+   :alt: license apache
+   :target: https://www.apache.org/licenses/LICENSE-2.0
 
 
-.. |动画|图片:: https://github.com/anyoptimization/pymoo-data/blob/main/animation.gif?raw=true
-  ：目标：https://pymoo.org
-  ： 替代： pymoo
+.. |logo| image:: https://github.com/anyoptimization/pymoo-data/blob/main/logo.png?raw=true
+  :target: https://pymoo.org
+  :alt: pymoo
 
 
-.._Github：https://github.com/anyoptimization/pymoo
-.._文档：https://www.pymoo.org/
-.._论文：https://ieeexplore.ieee.org/document/9078759
+.. |animation| image:: https://github.com/anyoptimization/pymoo-data/blob/main/animation.gif?raw=true
+  :target: https://pymoo.org
+  :alt: pymoo
 
 
-
-
-| 蟒蛇| |许可证|
-
-
-| 标志|
+.. _Github: https://github.com/anyoptimization/pymoo
+.. _Documentation: https://www.pymoo.org/
+.. _Paper: https://ieeexplore.ieee.org/document/9078759
 
 
 
-文档_ / 论文_ / 安装_ / 使用_ / 引用_ / 联系方式_
+
+|python| |license|
+
+
+|logo|
 
 
 
-pymoo：Python中的多目标优化
-=================================================== =================
-
-我们的开源框架 pymoo 提供最先进的单目标和多目标算法以及更多功能
-与多目标优化相关，例如可视化和决策制定。
+Documentation_ / Paper_ / Installation_ / Usage_ / Citation_ / Contact_
 
 
-.._安装：
 
-安装
+pymoo: Multi-objective Optimization in Python
+====================================================================
+
+Our open-source framework pymoo offers state of the art single- and multi-objective algorithms and many more features
+related to multi-objective optimization such as visualization and decision making.
+
+
+.. _Installation:
+
+Installation
 ****************************************************** **********************************
 
 First, make sure you have a Python 3 environment installed. We recommend miniconda3 or anaconda3.
