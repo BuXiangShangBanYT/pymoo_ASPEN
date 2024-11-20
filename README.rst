@@ -1,52 +1,63 @@
+   借助Pymoo，做了一个ASPEN PLUS和Pymoo联用的案例，这是我第一次使用Github，如果有线索，请告知我删除。所有相关代码在pymoo\\Aspen_Pymoo中。
+
+   本人不是专业设计师，不是专门研究ASPEN PLUS的学者，也不是天生算法领域的学者，只是曾在本科毕业设计中使用过相关随机算法与ASPEN PLUS联动（但比较失败）。 毕业几年后，某某有一天突然有了感觉，于是花了一些时间完成了这项工作
+
+   在做这项工作的过程中我发现ASPEN随机优化领域的相关资料仍然比较少，故此项目分享出来。
 
 
-.. |python| image:: https://img.shields.io/badge/python-3.10-blue.svg
-   :alt: python 3.10
+   我从Pymoo中添加了一个Aspen_Pymoo文件夹，其中包含我制作的一个ASPEN PLUS以及ASPEN PLUS和Pymoo与Pymoo结合的案例。这是我第一次使用Github。If infringement is involved，请通知我删除。所有相关代码都在 pymoo\\Aspen_Pymoo 中。
 
-.. |license| image:: https://img.shields.io/badge/license-apache-orange.svg
-   :alt: license apache
-   :target: https://www.apache.org/licenses/LICENSE-2.0
+   我不是专业设计师，不是专门研究ASPEN PLUS的学者，也不是进化算法领域的学者，但我曾经在本科毕业设计中结合ASPEN PLUS使用过相关随机算法（但失败了）。有一天突然有这样的感觉，于是花了一些时间做一些工作
 
+   在做这个工作的过程中，我发现ASPEN随机优化领域的相关资料还很少，所以分享一下这个项目。
 
-.. |logo| image:: https://github.com/anyoptimization/pymoo-data/blob/main/logo.png?raw=true
-  :target: https://pymoo.org
-  :alt: pymoo
+.. | 蟒蛇|图片:: https://img.shields.io/badge/python-3.10-blue.svg
+   ：替代：Python 3.10
 
-
-.. |animation| image:: https://github.com/anyoptimization/pymoo-data/blob/main/animation.gif?raw=true
-  :target: https://pymoo.org
-  :alt: pymoo
+.. |许可证|图片:: https://img.shields.io/badge/license-apache-orange.svg
+   :alt: 许可阿帕奇
+   ：目标：https://www.apache.org/licenses/LICENSE-2.0
 
 
-.. _Github: https://github.com/anyoptimization/pymoo
-.. _Documentation: https://www.pymoo.org/
-.. _Paper: https://ieeexplore.ieee.org/document/9078759
+..|标志|图片:: https://github.com/anyoptimization/pymoo-data/blob/main/logo.png?raw=true
+  ：目标：https://pymoo.org
+  ： 替代： pymoo
 
 
+.. |动画|图片:: https://github.com/anyoptimization/pymoo-data/blob/main/animation.gif?raw=true
+  ：目标：https://pymoo.org
+  ： 替代： pymoo
 
 
-|python| |license|
-
-
-|logo|
+.._Github：https://github.com/anyoptimization/pymoo
+.._文档：https://www.pymoo.org/
+.._论文：https://ieeexplore.ieee.org/document/9078759
 
 
 
-Documentation_ / Paper_ / Installation_ / Usage_ / Citation_ / Contact_
+
+| 蟒蛇| |许可证|
+
+
+| 标志|
 
 
 
-pymoo: Multi-objective Optimization in Python
-====================================================================
-
-Our open-source framework pymoo offers state of the art single- and multi-objective algorithms and many more features
-related to multi-objective optimization such as visualization and decision making.
+文档_ / 论文_ / 安装_ / 使用_ / 引用_ / 联系方式_
 
 
-.. _Installation:
 
-Installation
-********************************************************************************
+pymoo：Python中的多目标优化
+=================================================== =================
+
+我们的开源框架 pymoo 提供最先进的单目标和多目标算法以及更多功能
+与多目标优化相关，例如可视化和决策制定。
+
+
+.._安装：
+
+安装
+****************************************************** **********************************
 
 First, make sure you have a Python 3 environment installed. We recommend miniconda3 or anaconda3.
 
